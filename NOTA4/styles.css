@@ -1,0 +1,65 @@
+/* Estilo general para el cuerpo de la página */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: url(../img/s6.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex; /* Utiliza flexbox para la disposición */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Hace que el cuerpo tenga la altura completa de la ventana */
+  margin: 0; /* Elimina el margen predeterminado */
+  font-family: "Montserrat", sans-serif;
+ 
+}
+
+/* Estilo general para los contenedores */
+.container {
+  text-align: center; /* Centra el texto dentro del contenedor */
+  width: 300px; /* Ancho fijo del contenedor */
+  max-width: 90%; /* Ancho máximo relativo al ancho de la pantalla */
+  /*border-radius: 30px;*/
+}
+
+/* Estilo para los campos de entrada de texto, estilos para el cuadro de texto a encriptar */
+input[type="password"],
+textarea {
+  width: 100%; /* Hace que el campo de entrada ocupe todo el ancho del contenedor */
+  padding: 10px; /* Añade un relleno interno de 10px */
+  margin: 10px 0; /* Añade un margen vertical de 10px */
+  
+}
+
+/* Estilo general para los botones */
+button {
+  
+  width: 80%; /* Hace que el botón ocupe todo el ancho del contenedor */
+  padding: 15px; /* Añade un relleno interno de 10px */
+  margin: 10px 0; /* Añade un margen vertical de 10px */
+  font-size: 16px; /* Establece el tamaño de la fuente */
+  border-radius: 30px;
+  
+}
+
+/* Estilo específico para el botón de ingresar */
+#loginButton {
+  
+  width: 60%; /* Hace que el botón sea más corto en ancho */
+  margin: 10px auto; /* Añade un margen vertical de 10px y centra horizontalmente */
+  padding: 15px 10px; /* Añade un relleno interno de 15px arriba/abajo y 10px a los lados */
+}
+
+/* Estilo para el área de texto de salida */
+#outputText {
+  margin: 10px 0; /* Añade un margen vertical de 10px */
+  padding: 10px; /* Añade un relleno interno de 10px */
+  border: 1px solid #ccc; /* Añade un borde gris claro */
+  min-height: 50px; /* Establece una altura mínima de 50px */
+  white-space: pre-wrap; /* Mantiene los espacios en blanco y saltos de línea */
+  word-wrap: break-word; /* Permite el ajuste de palabras largas a la siguiente línea */
+}

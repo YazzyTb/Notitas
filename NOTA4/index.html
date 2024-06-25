@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cifrado César</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="container" id="passwordContainer">
+    <h2>PON TU CONTRASEÑA  :3 </h2>
+    <input type="password" id="passwordInput">
+    <button onclick="checkPassword()">Ingresar</button>
+  </div>
+  
+  <div class="container" id="textContainer" style="display: none;">
+    <h2>ESCRIBE TU NOTA AQUI: </h2>
+    
+    
+    <p id="outputText"></p>
+   
+    <textarea id="textInput" placeholder="Escribe tu texto aquí..."></textarea>
+    <button onclick="encryptText()">Guardar</button>
+    <button onclick="clearAll()">Borrar Todo</button>
+  </div>
+  
+<script src="script.js"></script>
+
+</body>
+</html>

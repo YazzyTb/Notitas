@@ -1,0 +1,29 @@
+DEFINICIÓN:
+
+El almacenamiento local (localStorage) es una funcionalidad del navegador web que permite almacenar datos de manera persistente en el lado del cliente. A diferencia de las cookies, los datos en localStorage no tienen fecha de expiración predeterminada y persisten incluso después de que el navegador se cierra.
+
+TIPOS DE ALMACENAMIENTO EN WEB:
+
+-Cookies: Pequeñas piezas de datos almacenadas por los sitios web que se pueden utilizar para seguimiento y almacenamiento de datos de sesión.
+-Local Storage: Almacena datos que persisten a través de sesiones del navegador.
+-Session Storage: Similar a localStorage, pero los datos sólo persisten durante la sesión actual del navegador.
+-IndexedDB: Una base de datos más avanzada para almacenamiento estructurado de grandes cantidades de datos.
+
+VENTAJAS:
+
+-Persistencia
+-Facilidad de uso
+-No Requiere Comunicación con el Servidor
+
+DESVENTAJAS:
+
+-Seguridad
+-Capacidad limitada
+-Sin soporte de sincronización
+
+Metodos:
+
+-localStorage.setItem(username, profectc): Almacena un par clave-valor.
+-localStorage.getItem(key): Recupera el valor almacenado por una clave.
+-localStorage.removeItem(username): Elimina el dato asociado a una clave.
+-localStorage.clear(): Elimina todos los datos almacenados en localStorage.

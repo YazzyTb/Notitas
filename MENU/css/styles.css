@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    font-family: 'Mochiy Pop One', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/s6.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categoria {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7056a2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.categoria:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Diferentes colores para cada botón */
+#nota1 { background-color: #0a0100; }
+#nota2 { background-color: #fcfc08; }
+#nota3 { background-color: #e362ef; }
+#nota4 { background-color: #f1c40f; }
+#nota5 { background-color: #9b59b6; }
+#nota6 { background-color: #e67e22; }
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #7056a2;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #592d80;
+}
